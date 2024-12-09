@@ -2,9 +2,10 @@
   "name": "seowebsite",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,12 @@
   "homepage": "https://github.com/GraftonB/SEOWebsite#readme",
   "dependencies": {
     "autoprefixer": "^10.4.20",
+    "express": "^4.21.2",
+    "hbs": "^4.2.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
