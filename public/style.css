@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #1a73e8;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a.cta-button {
+    display: inline-block;
+    background-color: #1a73e8;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+a.cta-button:hover {
+    background-color: #155ab2;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #e3f2fd;
+}
+
+/* About Section */
+#about {
+    background-color: #f4f4f4;
+}
+
+/* Projects Section */
+.project {
+    margin-bottom: 1.5rem;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background: #e3f2fd;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea, form button {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #155ab2;
+}
